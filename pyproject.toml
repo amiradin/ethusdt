@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ethusdt-2"
+version = "0.1.0"
+description = ""
+authors = ["Jackie <test@test.test>"]
+readme = "README.md"
+packages = [{include = "ethusdt_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.2"
+black = "^23.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
